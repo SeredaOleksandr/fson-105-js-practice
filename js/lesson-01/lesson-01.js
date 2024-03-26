@@ -183,9 +183,41 @@
 // якщо ділиться на 5 - повертає "buzz".
 // Якщо ділиться на 3 і на 5 - повертає "fizzbuzz"
 
-function checkNumber(num) {
-  for (let i = 1; i <= num; i++) {
-    
-  }
-  return
+// function checkNumber(num) {
+//   for (let i = 1; i <= num; i++) {
+    // if (i % 3 === 0 && i % 5 === 0) {
+    //   console.log("fizzbuzz");
+    // } else if (i % 5 === 0) {
+    //   console.log("buzz");
+    // } else if (i % 3 === 0) {
+    //   console.log("fizz");
+    // } else {
+    //   console.log(i);
+    // }
+
+    // варіант 2
+//     let str = "";
+//     if (i % 3 === 0) {
+//       str += "fizz";
+//     }
+
+//     if (i % 5 === 0) {
+//       str += "buzz";
+//     }
+
+//     console.log(str || i);
+//   }
+// }
+
+// checkNumber(30);
+
+function getSlice(array, value) {
+
+  return 
 }
+
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Ajax"));
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Mango"));
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Jacob"));
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Casey"));
