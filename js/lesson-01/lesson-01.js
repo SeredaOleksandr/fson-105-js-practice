@@ -172,7 +172,7 @@
 // let sumNum = 0;
 
 // for (let i = minNum; i <= maxNum; i++) {
-//   console.log(`${sumNum} + ${i} = ${sumNum + i}`); // Прикольний вивід підрухунків.
+//   console.log(`${sumNum} + ${i} = ${sumNum + i}`); // Прикольний вивід підрахунків.
 //   sumNum += i;
 // }
 
@@ -211,13 +211,18 @@
 
 // checkNumber(30);
 
-function getSlice(array, value) {
+// function bar() {
+//   console.log("bar");
+// }
 
-  return 
-}
+// function baz() {
+//   console.log("baz");
+// }
 
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Ajax"));
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Mango"));
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Jacob"));
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Casey"));
+// function foo() {
+//   console.log("foo");
+//   bar();
+//   baz();
+// }
+
+// foo();
