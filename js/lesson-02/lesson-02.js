@@ -24,6 +24,72 @@
 //   console.log(style);
 // }
 
+
+//TODO:============task-02=================
+// Знайти всі елементи масиву, що містять задану підстроку,
+// та об'єднати їх у новий масив. Після чого ввести у консоль лог
+// повідомлення "Масив елементів, що містять післястроку substring: ..."
+// Результат повинен бути розділений комами та пробілами (використати indexOf).
+
+// const wordArray = ["JavaScript", "HTML", "CSS", "React"];
+// const substring = "S";
+// const arr = [];
+
+// for (const word of wordArray) {
+//     if (word.includes(substring)) {
+//         arr.push(word);
+//     }
+// }
+
+// console.log(`Масив елементів, що містять підстроку substring: ${substring}: ${arr.join(", ")}`);
+
+
+//TODO:============task-03=================
+// Створити масив з 10-ти чисел. Напиши функцію, яка буде шукати найбільше число.
+
+// const numberArray = [1, 0, 5, 46, 23, 15, 4, 800, 7];
+
+// function findMaxNumber(array) {
+//     // const maxNumber = Math.max(...array);    // - Швидший спосіб з методом "Rest(...)"
+//     let maxNumber = array[0];
+
+//     for (const number of array) {
+//         if (maxNumber < number) {
+//             maxNumber = number;
+//         }
+//     }
+
+//     return maxNumber;
+// }
+
+// console.log(findMaxNumber(numberArray));
+
+
+//TODO:============task-04=================
+// Створи 2 масиви чисел. Об'єднай їх за допомогою методу масиву.
+// Створи нові масиви і за допомогою for...of, в перший масив збери
+// усі парні числи, а у другий - усі не парні та виведи їх у консоль.
+
+// const firstArray = [1, 2, 3, 5, 4];
+// const secondArray = [10, 21, 33, 55, 44];
+
+// const allArray = firstArray.concat(secondArray);
+
+// let oddArray = [];
+// let evenArray = [];
+
+// for (const array of allArray) {
+//     if (array % 2 === 0) {
+//         evenArray.push(array);
+//     } else {
+//         oddArray.push(array);
+//     }
+// }
+
+// console.log(evenArray);
+// console.log(oddArray);
+
+
 //TODO:============task-05==============
 // Напишіть функцію min(a, b), яка повертає
 // менше з чисел a, b
@@ -37,6 +103,7 @@
 // }
 
 // console.log(min(9, 10));
+
 
 //TODO:=========task-06=================
 //Напишіть функцію calculateAverage()
@@ -60,6 +127,7 @@
 
 // console.log(calculateAverage(5, 5, "true"));
 // console.log(calculateAverage(5, 65, 44, 23, 2));// * Літерал об'єкта
+
 
 //TODO:============task-07=========================
 // Створіть об'єкт "людина" з властивостями "ім'я", "хобі" і "вік". Напишіть метод "greet", який буде виводити на екран привітання з ім'ям людини.
@@ -95,6 +163,7 @@
 //   }
 // }
 
+
 //TODO:============task-08==============================================
 // 4. Створіть об'єкт "кошик" зі списком товарів та їх цін. Напишіть метод "calculateTotal", який буде обчислювати загальну суму товарів у кошику.
 
@@ -111,6 +180,7 @@
 // }
 
 // console.log(cart.calculateTotal());
+
 
 //TODO:============task-09==============================================
 // Створіть об'єкт "bankAccount" з властивостями "ownerName", "accountNumber", "balance".
